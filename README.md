@@ -14,7 +14,7 @@ Headr will inspect package.json using **name** and **description** as default, a
 /**
  * headr - Add header to a file
  *
- * @version 0.0.1
+ * @version v0.0.1
  * @homepage http://heldr.com
  * @license MIT
  */
