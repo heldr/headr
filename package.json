@@ -1,6 +1,6 @@
 {
   "name": "headr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adds header / banner info to a file",
   "main": "index.js",
   "bin": {
