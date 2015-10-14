@@ -1,0 +1,34 @@
+{
+  "name": "headr",
+  "version": "0.0.1",
+  "description": "Add header to a file",
+  "main": "index.js",
+  "bin": {
+    "headr": "./bin/headr"
+  },
+  "files": [
+    "bin",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tiniest/headr.git"
+  },
+  "keywords": [
+    "banner",
+    "header",
+    "build"
+  ],
+  "author": "Helder Santana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiniest/headr/issues"
+  },
+  "homepage": "https://github.com/tiniest/headr#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
