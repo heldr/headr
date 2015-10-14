@@ -1,6 +1,6 @@
 {
   "name": "headr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Adds header / banner info to a file. Nice to use as npm script :)",
   "main": "index.js",
   "bin": {
