@@ -1,5 +1,5 @@
 # headr
-Adds header / banner info to a file. Requires node.js 4+.
+Adds header / banner info to a file. Nice to use as npm script :)
 
 ## CLIENT
 `npm install -g headr` (it may require Root privileges)
@@ -8,7 +8,8 @@ Adds header / banner info to a file. Requires node.js 4+.
 ```CLI
 $ headr file.js --version --homepage --license > fileOutput.js
 ```
-Headr will inspect package.json and generate the following code, name and description are default.
+Headr will inspect package.json using **name** and **description** as default, and then generates the following code:
+
 ```js
 /**
  * headr - Add header to a file

@@ -6,6 +6,9 @@
   "bin": {
     "headr": "./bin/headr"
   },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "files": [
     "bin",
     "index.js"
@@ -20,7 +23,9 @@
   "keywords": [
     "banner",
     "header",
-    "build"
+    "build",
+    "npm script",
+    "script"
   ],
   "author": "Helder Santana",
   "license": "MIT",
