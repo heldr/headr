@@ -4,7 +4,7 @@
   "description": "Adds header / banner info to a file. Nice to use as npm script :)",
   "main": "index.js",
   "bin": {
-    "headr": "./bin/headr"
+    "headr": "index.js"
   },
   "engines": {
     "node": ">= 4.0.0"

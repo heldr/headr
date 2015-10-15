@@ -1,13 +1,17 @@
 # headr
 Adds header / banner info to a file. Nice to use as npm script :)
 
-## CLIENT
 `npm install -g headr` (it may require Root privileges)
 
-### Usage
+or for npm script:
+
+`npm install --save-dev headr`
+
+## Usage
 ```CLI
-$ headr file.js --version --homepage --license > fileOutput.js
+$ headr input.js -o=output.js --version --homepage --license
 ```
+
 Headr will inspect package.json using **name** and **description** as default, and then generates the following code:
 
 ```js
@@ -22,9 +26,9 @@ Headr will inspect package.json using **name** and **description** as default, a
  your code
 ```
 
-#### Custom labels
+### Custom labels
 ```CLI
-$ headr file.js --homepage="link" > fileOutput.js
+$ headr input.js -o=output.js --homepage="link"
 ```
 
 ```js
@@ -37,10 +41,23 @@ $ headr file.js --homepage="link" > fileOutput.js
  your code
 ```
 
-#### tab spaces
+### Tab spaces
 ```CLI
-$ headr file.js --h-tab-spaces=4 > fileOutput.js
+$ headr input.js -o=output.js --h-tab-spaces=4
 ```
+
+## Pipe
+
+```CLI
+$ cat input.js | headr -o=output.js --version --homepage --license
+```
+
+or:
+
+```CLI
+$ cat input.js | headr --version --homepage --license > output.js
+```
+Just make sure to use a different output file in this case, otherwise `-o` replaces the file nicely :)
 
 ## License
 
