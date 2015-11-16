@@ -1,6 +1,10 @@
 # headr
 Adds header / banner info to a file. Nice to use as npm script :)
 
+## Requirements
+
+- Node.js 4+
+
 `npm install -g headr` (it may require Root privileges)
 
 or for npm script:
