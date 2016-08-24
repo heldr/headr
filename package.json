@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/tiniest/headr.git"
+    "url": "git+ssh://git@github.com/heldr/headr.git"
   },
   "keywords": [
     "banner",
@@ -30,9 +30,9 @@
   "author": "Helder Santana",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tiniest/headr/issues"
+    "url": "https://github.com/heldr/headr/issues"
   },
-  "homepage": "https://github.com/tiniest/headr#readme",
+  "homepage": "https://github.com/heldr/headr#readme",
   "dependencies": {
     "minimist": "^1.2.0"
   }
